@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900&family=Marcellus&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@Layer base {
+
+    html {
+        @apply scroll-smooth
+    }
+
+    body {
+        @apply font-primary
+    }
+
+    #blog,
+    #book,
+    #program {
+        @apply scroll-mt-[80px]
+    }
+}
+
+
+a {
+    @apply font-primary text-black hover:text-baseColor transition-all duration-300 ease-in-out text-lg
+}
+
+.text-title {
+    @apply font-secondary font-medium text-baseColor-secondary text-[32px] lg:text-[64px]
+}
+
+.text-subtitle {
+    @apply font-secondary font-thin text-baseColor-secondary text-[16px] lg:text-[32px]
+}
+
+.text-description {
+    @apply font-secondary font-thin text-baseColor-secondary text-sm lg:text-base
+}
