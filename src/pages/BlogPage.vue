@@ -4,10 +4,8 @@ import { blogs } from './../data/blogs.js'
 </script>
 
 <template>
-
     <section id="blog" class="relative mt-[80px] w-full">
         <div class="container mx-auto">
-
             <div class="flex flex-col items-center justify-center">
                 <h1 class="text-title">Blog</h1>
                 <h5 class="text-subtitle">Insights and Tips from Education Experts</h5>
